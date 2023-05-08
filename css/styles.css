@@ -202,3 +202,38 @@
 .txtActivo:focus {
    border: 1px solid rgb(182, 182, 182);
 }
+
+
+@media screen and (max-width: 760px){
+
+
+   .cont_box2 {
+      width: 95%;
+  }
+  
+   #fondoMain {
+      height: auto;
+  }
+
+   .cont_box1__aviso {
+      font-size: 3.1vw;
+  }
+
+   .cont_box1 {
+      width: 95%;
+  }
+
+   .cont_box1__textarea {
+     
+      font-size: 5.7vw;
+  }
+
+   .cont {
+      flex-direction: column;
+      row-gap: 5vw;
+  }
+
+   .logotipo {
+      width: 8%;
+  }
+}
